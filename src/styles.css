@@ -1,0 +1,33 @@
+@import "bootstrap/scss/bootstrap";
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: #155724;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #28a745 !important; }
+  
+.navbar-brand {
+    color: white !important;
+  }
+
+.card {
+  border: 3px solid #28a745;
+  background: #d4edda;
+}
+.btn-st-patrick {
+  background-color: #155724;
+  color: white;
+  &:hover {
+    background-color: #0f3d19;
+  }
+}
+
+.carousel-item {
+  img {
+    border-radius: 10px;
+  }
+}
