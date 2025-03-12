@@ -1,5 +1,7 @@
-import "bootstrap/dist/js/bootstrap.bundle.min";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap";
 import "./styles.scss";
+
 
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("luck-btn").addEventListener("click", () => {

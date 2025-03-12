@@ -1,5 +1,19 @@
-# St. Patrick's Sandbox Project Structure
+# St. Patrick's Bootstrap Sandbox Project Structure
 
+## What is a Bootstrap Sandbox
+
+A Bootstrap Sandbox is an isolated environment where you can experiment with Bootstrap components, layouts, and styles without affecting other projects. It’s commonly used for:
+
+✅ Testing Bootstrap features (e.g., Navbar, Carousel, Buttons, Cards)
+✅ Experimenting with custom styles (SCSS, CSS overrides)
+✅ Building small prototypes before integrating into larger applications
+✅ Learning and practicing Bootstrap in a structured setup
+
+What Makes a Bootstrap Sandbox Special
+📦 Modular Setup: Uses Webpack and Babel to bundle assets efficiently.
+⚡ Hot Reloading: Instantly reflects changes in the browser using Webpack DevServer.
+🎨 SCSS Support: Allows easy customization of Bootstrap styles.
+🚀 Fast Development: Works like a playground for Bootstrap experiments
 ``st-patricks-sandbox/
 │── dist/ # Final build output
   │── src/ # Source files │
@@ -10,6 +24,17 @@
 │── package.json # Project metadata
 │── .babelrc # Babel configuration
 │── node_modules/ # Installed dependencies (after running npm install)``
+
+1️⃣ Initialize a Project
+mkdir bootstrap-sandbox
+cd bootstrap-sandbox
+npm init -y
+2️⃣ Install Required Dependencies
+
+npm install webpack webpack-cli webpack-dev-server --save-dev
+npm install @babel/core @babel/preset-env babel-loader --save-dev
+npm install sass sass-loader css-loader postcss-loader autoprefixer mini-css-extract-plugin --save-dev
+npm install bootstrap
 
 ## Importing Required Modules
 
@@ -114,3 +139,4 @@ Run the development server with:
 Build for production with:
 
 -npm run build
+
