@@ -96,7 +96,8 @@ JavaScript Handling
         ],
       },
     ],
-  },``
+  },
+  ``
 
 -test: /\.scss$/: Targets .scss files.
 -MiniCssExtractPlugin.loader: Extracts CSS into a separate file (styles.css).
